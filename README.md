@@ -5,6 +5,7 @@ This is your basic [Sinatra+Heroku app](https://devcenter.heroku.com/articles/ru
 It's pinned to ruby 1.9.3-p125, but feel free to change that... I don't think it's a hard requirement.
 
 1. Clone the repo.
+1. `$ bundle install` to set things up.
 1. `$ foreman` will run it locally.
 1. You can push to Heroku using the instructions from the Heroku link, above.
 
