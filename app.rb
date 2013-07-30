@@ -6,7 +6,7 @@ get '/hi' do
 end
 
 get '/twss' do
-  if TWSSClassifier.is_twss?("that was longer than i expected")
+  if params['twss'] && TWSSClassifier.is_twss?(params['twss'])
     "yes"
   else
     "no"
